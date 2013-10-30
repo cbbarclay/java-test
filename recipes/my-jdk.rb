@@ -1,4 +1,4 @@
-source_url = "http://s3.amazonaws.com/your-bucket/your-jdk.zip"
+source_url = "https://s3.amazonaws.com/chrisb/server-jre-7u45-linux-x64.gz"
 jdk_uri = ::URI.parse(source_url)
 jdk_filename = ::File.basename(jdk_uri.path)
 
